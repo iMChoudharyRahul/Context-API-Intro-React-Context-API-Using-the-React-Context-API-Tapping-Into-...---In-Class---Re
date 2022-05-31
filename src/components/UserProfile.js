@@ -6,8 +6,8 @@ const UserProfile = () => {
   const localVar = useContext(UserContext);
   return (
     <>
-      <h1 id="name">{localVar.name}</h1>
-      <h1 id="age">{localVar.age}</h1>
+      <h1 id="name">Name:-{localVar.name}</h1>
+      <h1 id="age">Age:-{localVar.age}</h1>
     </>
   );
 };
